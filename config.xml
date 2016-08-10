@@ -16,16 +16,17 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="xwalkVersion" value="xwalk_core_library:19+" />
+        <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
+        <preference name="xwalkMode" value="embedded"/>
+        <preference name="xwalkMultipleApk" value="true"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~4.1.1" />
-    <preference name="xwalkVersion" value="xwalk_core_library:16+" />
-    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
-    <preference name="xwalkMode" value="embedded"/>
-    <preference name="xwalkMultipleApk" value="true"/>
 </widget>
