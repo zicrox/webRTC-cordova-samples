@@ -14,7 +14,8 @@ $ cordova create hello com.example.hello HelloWorld
 $ cd hello
 ```
 
-2) Install crosswalk plugin before de add cordova platform, and set config.xml
+2) Install crosswalk plugin before de add cordova platform
+and set config.xml (check comits)
 ```sh
 $ cordova plugin add cordova-plugin-crosswalk-webview
 $ cordova platform add android --save
@@ -22,7 +23,8 @@ $ cordova build
 $ cordova run android
 ```
 
-3) Install cordova-plugin-whitelist and set config.xml
+3) Install cordova-plugin-whitelist
+and set config.xml (check comits)
 ```sh
 $ cordova plugin add cordova-plugin-whitelist
 ```

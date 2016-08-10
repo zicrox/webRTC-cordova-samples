@@ -34,6 +34,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        
+        document.getElementById("samples").addEventListener("click", function(){
+          window.location.href = "https://webrtc.github.io/samples/";
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
