@@ -2,11 +2,14 @@
 WebRTC samples inside cordova and crosswalk
 
 Based on: https://webrtc.github.io/samples/
+
 Using less plugins as posible.
+
+Disclaimer:  I COMMIT ALL
 
 Creation steps (OSX):
 
-1. Cordova HelloWorld
+1) Cordova HelloWorld
 
 ```sh
 $ sudo npm install -g cordova
@@ -15,7 +18,7 @@ $ cd hello
 $ cordova platform add android --save
 ```
 
-2. Install crosswalk plugin this process add preferences in config.xml 
+2) Install crosswalk plugin this process add preferences in config.xml 
 
 IMPORTANT: Change the cordova-plugin in order to change the crosswalk version. 
 
@@ -35,7 +38,7 @@ $ cordova run android
 ```
 
 
-3. Install cordova-plugin-whitelist
+3) Install cordova-plugin-whitelist
 and set config.xml (check comits)
 ```sh
 $ cordova plugin add cordova-plugin-whitelist
